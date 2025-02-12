@@ -1,2 +1,90 @@
-# ChatBot
-Chatbot with knowledge from wikipedia and writting a story function
+Interactive Multi-Functional Python Tool
+==========================================
+
+Overview
+--------
+This project is an interactive Python application that performs several tasks, including:
+
+- Conversational Interface:
+  Responds to natural language queries (e.g., "how are you?" or "I'm feeling great!") with context-aware responses.
+
+- Website Launching:
+  Extracts website domains and search queries from user input and opens the corresponding website using your default web browser.
+
+- Wikipedia Integration:
+  Searches Wikipedia for a query and retrieves the title and a summary of the first article found.
+
+- Text Processing & Story Generation:
+  • Processes a file (testdata.txt) using regex-based text replacement.
+  • Extracts variables from user input.
+  • Rewrites a story template (template.txt) by matching candidate sentences from a file (Stories.txt).
+  • Generates a customized story when the user types commands such as "write a story", "make me a story", or "rewrite".
+
+Features
+--------
+- Conversational Processing:
+  • Handles "how" questions and "I'm" statements.
+  • Uses randomized responses to add variety to interactions.
+
+- Website Search & Launching:
+  • Detects website domains (e.g., example.com) in user input.
+  • Opens the specified domain (with an optional query) in the web browser.
+
+- Wikipedia Search:
+  • Leverages Wikipedia's API to search for articles.
+  • Displays the title and a truncated summary of the first matching article.
+
+- Advanced Text Replacement & Story Generation:
+  • Processes testdata.txt using regex replacements.
+  • Extracts names and other variables from user input.
+  • Matches and replaces parts of a story template (template.txt) with candidate sentences from Stories.txt.
+  • Generates a customized story based on the processed template.
+
+Requirements
+------------
+- Python 3.x
+- Python Libraries:
+  • requests
+  • webbrowser
+  • random
+  • re
+
+- Input Files:
+  Place the following input files in the same folder as the script:
+    - testdata.txt
+    - template.txt
+    - Stories.txt
+
+Installation & Usage
+----------------------
+1. Install Python 3.x if you haven't already.
+
+2. Install the required libraries (if not already installed) by running:
+      pip install requests
+
+3. Place the input files (testdata.txt, template.txt, and Stories.txt) in the same folder as the script.
+
+4. Run the script:
+      python your_script_name.py
+
+5. Interact with the program:
+   - Enter conversational queries such as "how are you?" or "I'm feeling great!".
+   - To open a website, type commands like "search example.com for news".
+   - To generate a story, type commands such as "write a story", "make me a story", or "rewrite".
+
+License
+-------
+This project is licensed for non-commercial personal use only.
+You are free to modify the software for personal.
+You are NOT allowed to distribute the software to others unless you have obtained permission from the author.
+For any commercial use or distribution of this software, please contact the author.
+
+License Note:
+"This software is provided for personal and educational use only. Commercial use or redistribution is prohibited without prior written consent from the author. For commercial licensing inquiries, please contact adamkjaer15@gmail.com."
+
+Contact
+-------
+For commercial inquiries or licensing requests, please contact:
+
+Email: adamkjaer15@gmail.com
+GitHub: https://github.com/skech12
